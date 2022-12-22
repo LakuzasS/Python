@@ -1,6 +1,6 @@
 dico = {
-    "firstname": "Basile",
-    "name": "LE THIEC",
+    "firstname": "Maxime",
+    "name": "BRODIN",
     "promo": 2022,
     "group": "RT112"
 }
