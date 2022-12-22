@@ -2,7 +2,7 @@ dico = {
     "firstname": "Maxime",
     "name": "BRODIN",
     "promo": 2022,
-    "group": "RT112"
+    "group": "RT111"
 }
 
 print(f"Votre nom est {dico['name']}, prénom est {dico['firstname']}, "
