@@ -2,7 +2,6 @@ heure = int(input("Saisir le nombre d'heures de travail :"))
 salaire = int(input("Définir le salaire horaire :"))
 salaire_depart = salaire
 a = 0
-z = 0
 b = 0
 if heure < 160:
     print("l'ouvrier n'a pas rempli ces heures de travail, il n'a pas de salaire")
