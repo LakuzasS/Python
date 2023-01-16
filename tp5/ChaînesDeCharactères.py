@@ -16,10 +16,11 @@ for j in range(0, len(chaine)-1):
         if chaine[j] == voyelles[k]:
             compteur += 1
 pourcentage = (compteur / longueur) * 100
-print(pourcentage)
+print("Dans la liste, il y a ",round(pourcentage,1),"% de voyelles.")
 for a in range(len(chaine)):
-    if chaine2 == chaine[a]:
+    if chaine2 == chaine[a]+chaine[a+1]+chaine[a+2]+chaine[a+3]+chaine[a+4]:
         print("wagon est bien une sous-chaine de T et apparait la première fois à l'indice", a)
+        break
     occurrence = chaine.count("wagon")
-print(occurrence)
+print("La chaine de caractères wagon apparaît",occurrence,"fois dans la liste.")
 
